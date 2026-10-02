@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcsg324-1" LaunchTime="1767690279">
+  <File Type="ROUTE-PWR" Name="Mycpu_top_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="Mycpu_top.tcl"/>
+  <File Type="BITSTR-BMM" Name="Mycpu_top_bd.bmm"/>
+  <File Type="ROUTE-PWR-SUM" Name="Mycpu_top_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="Mycpu_top_reports.tcl"/>
+  <File Type="OPT-DCP" Name="Mycpu_top_opt.dcp"/>
+  <File Type="OPT-DRC" Name="Mycpu_top_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="Mycpu_top.hwdef"/>
+  <File Type="PWROPT-DCP" Name="Mycpu_top_pwropt.dcp"/>
+  <File Type="PLACE-DCP" Name="Mycpu_top_placed.dcp"/>
+  <File Type="PLACE-IO" Name="Mycpu_top_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Mycpu_top_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Mycpu_top_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Mycpu_top_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Mycpu_top_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="Mycpu_top.bgn"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Mycpu_top_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="Mycpu_top.bin"/>
+  <File Type="PHYSOPT-DCP" Name="Mycpu_top_physopt.dcp"/>
+  <File Type="BITSTR-MSK" Name="Mycpu_top.msk"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Mycpu_top_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="Mycpu_top_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Mycpu_top_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="Mycpu_top_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Mycpu_top_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="Mycpu_top_drc_routed.rpx"/>
+  <File Type="BITSTR-LTX" Name="Mycpu_top.ltx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Mycpu_top_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MMI" Name="Mycpu_top.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Mycpu_top_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Mycpu_top_methodology_drc_routed.pb"/>
+  <File Type="BITSTR-SYSDEF" Name="Mycpu_top.sysdef"/>
+  <File Type="ROUTE-PWR-RPX" Name="Mycpu_top_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="Mycpu_top_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Mycpu_top_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Mycpu_top_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Mycpu_top_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Mycpu_top_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-CLK" Name="Mycpu_top_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="Mycpu_top_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="Mycpu_top_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="Mycpu_top_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Mycpu_top_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Mycpu_top_postroute_physopt_bb.dcp"/>
+  <File Type="BG-BIT" Name="Mycpu_top.bit"/>
+  <File Type="BITSTR-RBT" Name="Mycpu_top.rbt"/>
+  <File Type="BITSTR-NKY" Name="Mycpu_top.nky"/>
+  <File Type="BG-DRC" Name="Mycpu_top.drc"/>
+  <File Type="RDI-RDI" Name="Mycpu_top.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/include/bus.v">
+      <FileInfo SFType="VHeader">
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../我的课程/cpu/CPUfpga/include/bus.v"/>
+        <Attr Name="ImportTime" Val="1670054038"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/include/funct.v">
+      <FileInfo SFType="VHeader">
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../我的课程/cpu/CPUfpga/include/funct.v"/>
+        <Attr Name="ImportTime" Val="1670054074"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/TINYCPU/core/stage/ex/Adder.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../我的课程/cpu/CPUfpga/core/stage/ex/Adder.v"/>
+        <Attr Name="ImportTime" Val="1669999032"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/include/opcode.v">
+      <FileInfo SFType="VHeader">
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../我的课程/cpu/CPUfpga/include/opcode.v"/>
+        <Attr Name="ImportTime" Val="1670054049"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/TINYCPU/core/stage/id/BranchGen.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../我的课程/cpu/CPUfpga/core/stage/id/BranchGen.v"/>
+        <Attr Name="ImportTime" Val="1669999032"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/core/Core.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../我的课程/cpu/CPUfpga/core/Core.v"/>
+        <Attr Name="ImportTime" Val="1670056421"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/TINYCPU/fpga/Counter.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../我的课程/cpu/CPUfpga/fpga/Counter.v"/>
+        <Attr Name="ImportTime" Val="1669999174"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/TINYCPU/fpga/Digic_led.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../我的课程/cpu/CPUfpga/fpga/Digic_led.v"/>
+        <Attr Name="ImportTime" Val="1669999174"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/TINYCPU/fpga/Digic_seg.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../我的课程/cpu/CPUfpga/fpga/Digic_seg.v"/>
+        <Attr Name="ImportTime" Val="1669999174"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/TINYCPU/core/stage/ex/Divider/Divider.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../我的课程/cpu/CPUfpga/core/stage/ex/Divider/Divider.v"/>
+        <Attr Name="ImportTime" Val="1669999174"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/TINYCPU/core/stage/ex/Divider/Done_gate.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../我的课程/cpu/CPUfpga/core/stage/ex/Divider/Done_gate.v"/>
+        <Attr Name="ImportTime" Val="1669999174"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/TINYCPU/core/stage/ex/EX.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../我的课程/cpu/CPUfpga/core/stage/ex/EX.v"/>
+        <Attr Name="ImportTime" Val="1670053542"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/TINYCPU/core/stage/ex/EXMEM.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../我的课程/cpu/CPUfpga/core/stage/ex/EXMEM.v"/>
+        <Attr Name="ImportTime" Val="1670056094"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/TINYCPU/core/stage/id/FunctGen.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../我的课程/cpu/CPUfpga/core/stage/id/FunctGen.v"/>
+        <Attr Name="ImportTime" Val="1669999032"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/TINYCPU/core/storage/HILO.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../我的课程/cpu/CPUfpga/core/storage/HILO.v"/>
+        <Attr Name="ImportTime" Val="1669999032"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/TINYCPU/core/storage/HILOReadProxy.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../我的课程/cpu/CPUfpga/core/storage/HILOReadProxy.v"/>
+        <Attr Name="ImportTime" Val="1669999174"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/TINYCPU/core/stage/ex/Hilo_Gen.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../我的课程/cpu/CPUfpga/core/stage/ex/Hilo_Gen.v"/>
+        <Attr Name="ImportTime" Val="1669999174"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/include/segpos.v">
+      <FileInfo SFType="VHeader">
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../我的课程/cpu/CPUfpga/include/segpos.v"/>
+        <Attr Name="ImportTime" Val="1669996439"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/TINYCPU/core/stage/id/ID.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../我的课程/cpu/CPUfpga/core/stage/id/ID.v"/>
+        <Attr Name="ImportTime" Val="1670053565"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/TINYCPU/core/stage/id/IDEX.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../我的课程/cpu/CPUfpga/core/stage/id/IDEX.v"/>
+        <Attr Name="ImportTime" Val="1670055967"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/TINYCPU/core/stage/if/IFID.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../我的课程/cpu/CPUfpga/core/stage/if/IFID.v"/>
+        <Attr Name="ImportTime" Val="1670054252"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/TINYCPU/core/stage/ex/Logic.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../我的课程/cpu/CPUfpga/core/stage/ex/Logic.v"/>
+        <Attr Name="ImportTime" Val="1669999174"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/TINYCPU/core/stage/mem/MEM.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../我的课程/cpu/CPUfpga/core/stage/mem/MEM.v"/>
+        <Attr Name="ImportTime" Val="1670056112"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/TINYCPU/core/stage/mem/MEMWB.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../我的课程/cpu/CPUfpga/core/stage/mem/MEMWB.v"/>
+        <Attr Name="ImportTime" Val="1670053756"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/TINYCPU/core/stage/id/MemGen.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../我的课程/cpu/CPUfpga/core/stage/id/MemGen.v"/>
+        <Attr Name="ImportTime" Val="1669999032"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/TINYCPU/core/stage/ex/Multiplier/Multiplier.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../我的课程/cpu/CPUfpga/core/stage/ex/Multiplier/Multiplier.v"/>
+        <Attr Name="ImportTime" Val="1669999174"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/TINYCPU/core/stage/ex/Mux.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../我的课程/cpu/CPUfpga/core/stage/ex/Mux.v"/>
+        <Attr Name="ImportTime" Val="1669999174"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/TINYCPU/core/stage/id/OperandGen.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../我的课程/cpu/CPUfpga/core/stage/id/OperandGen.v"/>
+        <Attr Name="ImportTime" Val="1669999032"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/include/pcdef.v">
+      <FileInfo SFType="VHeader">
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../我的课程/cpu/CPUfpga/include/pcdef.v"/>
+        <Attr Name="ImportTime" Val="1669996439"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/TINYCPU/core/stage/if/PC.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../我的课程/cpu/CPUfpga/core/stage/if/PC.v"/>
+        <Attr Name="ImportTime" Val="1670056397"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/TINYCPU/core/pipeline/PipelineController.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../我的课程/cpu/CPUfpga/core/pipeline/PipelineController.v"/>
+        <Attr Name="ImportTime" Val="1670053543"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/TINYCPU/core/pipeline/PipelineDeliver.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../我的课程/cpu/CPUfpga/core/pipeline/PipelineDeliver.v"/>
+        <Attr Name="ImportTime" Val="1670053284"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/include/sim.v">
+      <FileInfo SFType="VHeader">
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../我的课程/cpu/CPUfpga/include/sim.v"/>
+        <Attr Name="ImportTime" Val="1669999174"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/TINYCPU/sim/RAM.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../我的课程/cpu/CPUfpga/sim/RAM.v"/>
+        <Attr Name="ImportTime" Val="1669996439"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/TINYCPU/sim/ROM.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../我的课程/cpu/CPUfpga/sim/ROM.v"/>
+        <Attr Name="ImportTime" Val="1670056475"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/TINYCPU/core/storage/RegFile.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../我的课程/cpu/CPUfpga/core/storage/RegFile.v"/>
+        <Attr Name="ImportTime" Val="1669999032"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/TINYCPU/core/stage/id/RegGen.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../我的课程/cpu/CPUfpga/core/stage/id/RegGen.v"/>
+        <Attr Name="ImportTime" Val="1669999032"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/TINYCPU/core/storage/RegReadProxy.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../我的课程/cpu/CPUfpga/core/storage/RegReadProxy.v"/>
+        <Attr Name="ImportTime" Val="1669999032"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/TINYCPU/fpga/Stall_btn.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../我的课程/cpu/CPUfpga/fpga/Stall_btn.v"/>
+        <Attr Name="ImportTime" Val="1669999174"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/TINYCPU/fpga/Switch_led.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../我的课程/cpu/CPUfpga/fpga/Switch_led.v"/>
+        <Attr Name="ImportTime" Val="1669999174"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/TINYCPU/core/stage/wb/WB.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../我的课程/cpu/CPUfpga/core/stage/wb/WB.v"/>
+        <Attr Name="ImportTime" Val="1670000703"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/TINYCPU/fpga/btn_out.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../我的课程/cpu/CPUfpga/fpga/btn_out.v"/>
+        <Attr Name="ImportTime" Val="1669999174"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/TINYCPU/core/stage/ex/Divider/cas.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../我的课程/cpu/CPUfpga/core/stage/ex/Divider/cas.v"/>
+        <Attr Name="ImportTime" Val="1669999174"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/TINYCPU/core/stage/ex/Divider/cas_row.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../我的课程/cpu/CPUfpga/core/stage/ex/Divider/cas_row.v"/>
+        <Attr Name="ImportTime" Val="1669999174"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/TINYCPU/core/stage/ex/Multiplier/full_adder.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../我的课程/cpu/CPUfpga/core/stage/ex/Multiplier/full_adder.v"/>
+        <Attr Name="ImportTime" Val="1669999174"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/TINYCPU/fpga/mux_5to1.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../我的课程/cpu/CPUfpga/fpga/mux_5to1.v"/>
+        <Attr Name="ImportTime" Val="1669999174"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/TINYCPU/core/stage/ex/Multiplier/rca.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../我的课程/cpu/CPUfpga/core/stage/ex/Multiplier/rca.v"/>
+        <Attr Name="ImportTime" Val="1669999174"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/TINYCPU/fpga/Mycpu_top.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../我的课程/cpu/CPUfpga/fpga/Mycpu_top.v"/>
+        <Attr Name="ImportTime" Val="1670056494"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Mycpu_top"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/fpga/digic_led.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../我的课程/cpu/CPUfpga/fpga/digic_led.xdc"/>
+        <Attr Name="ImportTime" Val="1670066092"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

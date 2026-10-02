@@ -1,0 +1,50 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../project_2.srcs/sources_1/imports/include" \
+"../../../../project_2.srcs/sources_1/imports/TINYCPU/core/stage/ex/Adder.v" \
+"../../../../project_2.srcs/sources_1/imports/TINYCPU/core/stage/id/BranchGen.v" \
+"../../../../project_2.srcs/sources_1/imports/core/Core.v" \
+"../../../../project_2.srcs/sources_1/imports/TINYCPU/fpga/Counter.v" \
+"../../../../project_2.srcs/sources_1/imports/TINYCPU/fpga/Digic_led.v" \
+"../../../../project_2.srcs/sources_1/imports/TINYCPU/fpga/Digic_seg.v" \
+"../../../../project_2.srcs/sources_1/imports/TINYCPU/core/stage/ex/Divider/Divider.v" \
+"../../../../project_2.srcs/sources_1/imports/TINYCPU/core/stage/ex/Divider/Done_gate.v" \
+"../../../../project_2.srcs/sources_1/imports/TINYCPU/core/stage/ex/EX.v" \
+"../../../../project_2.srcs/sources_1/imports/TINYCPU/core/stage/ex/EXMEM.v" \
+"../../../../project_2.srcs/sources_1/imports/TINYCPU/core/stage/id/FunctGen.v" \
+"../../../../project_2.srcs/sources_1/imports/TINYCPU/core/storage/HILO.v" \
+"../../../../project_2.srcs/sources_1/imports/TINYCPU/core/storage/HILOReadProxy.v" \
+"../../../../project_2.srcs/sources_1/imports/TINYCPU/core/stage/ex/Hilo_Gen.v" \
+"../../../../project_2.srcs/sources_1/imports/TINYCPU/core/stage/id/ID.v" \
+"../../../../project_2.srcs/sources_1/imports/TINYCPU/core/stage/id/IDEX.v" \
+"../../../../project_2.srcs/sources_1/imports/TINYCPU/core/stage/if/IFID.v" \
+"../../../../project_2.srcs/sources_1/imports/TINYCPU/core/stage/ex/Logic.v" \
+"../../../../project_2.srcs/sources_1/imports/TINYCPU/core/stage/mem/MEM.v" \
+"../../../../project_2.srcs/sources_1/imports/TINYCPU/core/stage/mem/MEMWB.v" \
+"../../../../project_2.srcs/sources_1/imports/TINYCPU/core/stage/id/MemGen.v" \
+"../../../../project_2.srcs/sources_1/imports/TINYCPU/core/stage/ex/Multiplier/Multiplier.v" \
+"../../../../project_2.srcs/sources_1/imports/TINYCPU/core/stage/ex/Mux.v" \
+"../../../../project_2.srcs/sources_1/imports/TINYCPU/core/stage/id/OperandGen.v" \
+"../../../../project_2.srcs/sources_1/imports/TINYCPU/core/stage/if/PC.v" \
+"../../../../project_2.srcs/sources_1/imports/TINYCPU/core/pipeline/PipelineController.v" \
+"../../../../project_2.srcs/sources_1/imports/TINYCPU/core/pipeline/PipelineDeliver.v" \
+"../../../../project_2.srcs/sources_1/imports/TINYCPU/sim/RAM.v" \
+"../../../../project_2.srcs/sources_1/imports/TINYCPU/sim/ROM.v" \
+"../../../../project_2.srcs/sources_1/imports/TINYCPU/core/storage/RegFile.v" \
+"../../../../project_2.srcs/sources_1/imports/TINYCPU/core/stage/id/RegGen.v" \
+"../../../../project_2.srcs/sources_1/imports/TINYCPU/core/storage/RegReadProxy.v" \
+"../../../../project_2.srcs/sources_1/imports/TINYCPU/fpga/Stall_btn.v" \
+"../../../../project_2.srcs/sources_1/imports/TINYCPU/fpga/Switch_led.v" \
+"../../../../project_2.srcs/sources_1/imports/TINYCPU/core/stage/wb/WB.v" \
+"../../../../project_2.srcs/sources_1/imports/TINYCPU/fpga/btn_out.v" \
+"../../../../project_2.srcs/sources_1/imports/TINYCPU/core/stage/ex/Divider/cas.v" \
+"../../../../project_2.srcs/sources_1/imports/TINYCPU/core/stage/ex/Divider/cas_row.v" \
+"../../../../project_2.srcs/sources_1/imports/TINYCPU/core/stage/ex/Multiplier/full_adder.v" \
+"../../../../project_2.srcs/sources_1/imports/TINYCPU/fpga/mux_5to1.v" \
+"../../../../project_2.srcs/sources_1/imports/TINYCPU/core/stage/ex/Multiplier/rca.v" \
+"../../../../project_2.srcs/sources_1/imports/TINYCPU/fpga/Mycpu_top.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

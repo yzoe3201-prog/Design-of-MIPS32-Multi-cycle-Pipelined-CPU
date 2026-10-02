@@ -1,0 +1,74 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/homework/AI_computer/Hardware_System_Design/myCPU/CPUfpga.srcs/sources_1/imports/TINYCPU/core/stage/ex/Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/homework/AI_computer/Hardware_System_Design/myCPU/CPUfpga.srcs/sources_1/imports/TINYCPU/core/stage/id/BranchGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BranchGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/homework/AI_computer/Hardware_System_Design/myCPU/CPUfpga.srcs/sources_1/imports/core/Core.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Core
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/homework/AI_computer/Hardware_System_Design/myCPU/CPUfpga.srcs/sources_1/imports/TINYCPU/core/stage/ex/Divider/Divider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Divider
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/homework/AI_computer/Hardware_System_Design/myCPU/CPUfpga.srcs/sources_1/imports/TINYCPU/core/stage/ex/Divider/Done_gate.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Done_gate
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/homework/AI_computer/Hardware_System_Design/myCPU/CPUfpga.srcs/sources_1/imports/TINYCPU/core/stage/ex/EX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EX
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/homework/AI_computer/Hardware_System_Design/myCPU/CPUfpga.srcs/sources_1/imports/TINYCPU/core/stage/ex/EXMEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXMEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/homework/AI_computer/Hardware_System_Design/myCPU/CPUfpga.srcs/sources_1/imports/TINYCPU/core/stage/id/FunctGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FunctGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/homework/AI_computer/Hardware_System_Design/myCPU/CPUfpga.srcs/sources_1/imports/TINYCPU/core/storage/HILO.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HILO
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/homework/AI_computer/Hardware_System_Design/myCPU/CPUfpga.srcs/sources_1/imports/TINYCPU/core/storage/HILOReadProxy.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HILOReadProxy
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/homework/AI_computer/Hardware_System_Design/myCPU/CPUfpga.srcs/sources_1/imports/TINYCPU/core/stage/ex/Hilo_Gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Hilo_Gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/homework/AI_computer/Hardware_System_Design/myCPU/CPUfpga.srcs/sources_1/imports/TINYCPU/core/stage/id/ID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/homework/AI_computer/Hardware_System_Design/myCPU/CPUfpga.srcs/sources_1/imports/TINYCPU/core/stage/id/IDEX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IDEX
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/homework/AI_computer/Hardware_System_Design/myCPU/CPUfpga.srcs/sources_1/imports/TINYCPU/core/stage/if/IFID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IFID
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/homework/AI_computer/Hardware_System_Design/myCPU/CPUfpga.srcs/sources_1/imports/TINYCPU/core/stage/ex/Logic.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Logic
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/homework/AI_computer/Hardware_System_Design/myCPU/CPUfpga.srcs/sources_1/imports/TINYCPU/core/stage/mem/MEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/homework/AI_computer/Hardware_System_Design/myCPU/CPUfpga.srcs/sources_1/imports/TINYCPU/core/stage/mem/MEMWB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMWB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/homework/AI_computer/Hardware_System_Design/myCPU/CPUfpga.srcs/sources_1/imports/TINYCPU/core/stage/id/MemGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MemGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/homework/AI_computer/Hardware_System_Design/myCPU/CPUfpga.srcs/sources_1/imports/TINYCPU/core/stage/ex/Multiplier/Multiplier.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multiplier
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/homework/AI_computer/Hardware_System_Design/myCPU/CPUfpga.srcs/sources_1/imports/TINYCPU/core/stage/ex/Mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/homework/AI_computer/Hardware_System_Design/myCPU/CPUfpga.srcs/sources_1/imports/TINYCPU/fpga/Mycpu_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mycpu_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/homework/AI_computer/Hardware_System_Design/myCPU/CPUfpga.srcs/sources_1/imports/TINYCPU/core/stage/id/OperandGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OperandGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/homework/AI_computer/Hardware_System_Design/myCPU/CPUfpga.srcs/sources_1/imports/TINYCPU/core/stage/if/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/homework/AI_computer/Hardware_System_Design/myCPU/CPUfpga.srcs/sources_1/imports/TINYCPU/core/pipeline/PipelineController.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PipelineController
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/homework/AI_computer/Hardware_System_Design/myCPU/CPUfpga.srcs/sources_1/imports/TINYCPU/core/pipeline/PipelineDeliver.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PipelineDeliver
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/homework/AI_computer/Hardware_System_Design/myCPU/CPUfpga.srcs/sources_1/imports/TINYCPU/sim/RAM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/homework/AI_computer/Hardware_System_Design/myCPU/CPUfpga.srcs/sources_1/imports/TINYCPU/sim/ROM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ROM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/homework/AI_computer/Hardware_System_Design/myCPU/CPUfpga.srcs/sources_1/imports/TINYCPU/core/storage/RegFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/homework/AI_computer/Hardware_System_Design/myCPU/CPUfpga.srcs/sources_1/imports/TINYCPU/core/stage/id/RegGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/homework/AI_computer/Hardware_System_Design/myCPU/CPUfpga.srcs/sources_1/imports/TINYCPU/core/storage/RegReadProxy.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegReadProxy
+INFO: [VRFC 10-2458] undeclared symbol ex_flag, assumed default net type wire [D:/homework/AI_computer/Hardware_System_Design/myCPU/CPUfpga.srcs/sources_1/imports/TINYCPU/core/storage/RegReadProxy.v:40]
+INFO: [VRFC 10-2458] undeclared symbol mem_flag, assumed default net type wire [D:/homework/AI_computer/Hardware_System_Design/myCPU/CPUfpga.srcs/sources_1/imports/TINYCPU/core/storage/RegReadProxy.v:41]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/homework/AI_computer/Hardware_System_Design/myCPU/CPUfpga.srcs/sources_1/imports/TINYCPU/core/stage/wb/WB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module WB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/homework/AI_computer/Hardware_System_Design/myCPU/CPUfpga.srcs/sources_1/imports/TINYCPU/core/stage/ex/Divider/cas.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cas
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/homework/AI_computer/Hardware_System_Design/myCPU/CPUfpga.srcs/sources_1/imports/TINYCPU/core/stage/ex/Divider/cas_row.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cas_row
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/homework/AI_computer/Hardware_System_Design/myCPU/CPUfpga.srcs/sources_1/imports/TINYCPU/core/stage/ex/Multiplier/full_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/homework/AI_computer/Hardware_System_Design/myCPU/CPUfpga.srcs/sources_1/imports/TINYCPU/core/stage/ex/Multiplier/rca.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rca
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/homework/AI_computer/Hardware_System_Design/myCPU/CPUfpga.srcs/sim_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench

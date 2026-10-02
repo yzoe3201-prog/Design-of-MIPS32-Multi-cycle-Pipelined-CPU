@@ -1,0 +1,44 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../CPUfpga.srcs/sources_1/imports/include" \
+"../../../../CPUfpga.srcs/sources_1/imports/TINYCPU/core/stage/ex/Adder.v" \
+"../../../../CPUfpga.srcs/sources_1/imports/TINYCPU/core/stage/id/BranchGen.v" \
+"../../../../CPUfpga.srcs/sources_1/imports/core/Core.v" \
+"../../../../CPUfpga.srcs/sources_1/imports/TINYCPU/core/stage/ex/Divider/Divider.v" \
+"../../../../CPUfpga.srcs/sources_1/imports/TINYCPU/core/stage/ex/Divider/Done_gate.v" \
+"../../../../CPUfpga.srcs/sources_1/imports/TINYCPU/core/stage/ex/EX.v" \
+"../../../../CPUfpga.srcs/sources_1/imports/TINYCPU/core/stage/ex/EXMEM.v" \
+"../../../../CPUfpga.srcs/sources_1/imports/TINYCPU/core/stage/id/FunctGen.v" \
+"../../../../CPUfpga.srcs/sources_1/imports/TINYCPU/core/storage/HILO.v" \
+"../../../../CPUfpga.srcs/sources_1/imports/TINYCPU/core/storage/HILOReadProxy.v" \
+"../../../../CPUfpga.srcs/sources_1/imports/TINYCPU/core/stage/ex/Hilo_Gen.v" \
+"../../../../CPUfpga.srcs/sources_1/imports/TINYCPU/core/stage/id/ID.v" \
+"../../../../CPUfpga.srcs/sources_1/imports/TINYCPU/core/stage/id/IDEX.v" \
+"../../../../CPUfpga.srcs/sources_1/imports/TINYCPU/core/stage/if/IFID.v" \
+"../../../../CPUfpga.srcs/sources_1/imports/TINYCPU/core/stage/ex/Logic.v" \
+"../../../../CPUfpga.srcs/sources_1/imports/TINYCPU/core/stage/mem/MEM.v" \
+"../../../../CPUfpga.srcs/sources_1/imports/TINYCPU/core/stage/mem/MEMWB.v" \
+"../../../../CPUfpga.srcs/sources_1/imports/TINYCPU/core/stage/id/MemGen.v" \
+"../../../../CPUfpga.srcs/sources_1/imports/TINYCPU/core/stage/ex/Multiplier/Multiplier.v" \
+"../../../../CPUfpga.srcs/sources_1/imports/TINYCPU/core/stage/ex/Mux.v" \
+"../../../../CPUfpga.srcs/sources_1/imports/TINYCPU/fpga/Mycpu_top.v" \
+"../../../../CPUfpga.srcs/sources_1/imports/TINYCPU/core/stage/id/OperandGen.v" \
+"../../../../CPUfpga.srcs/sources_1/imports/TINYCPU/core/stage/if/PC.v" \
+"../../../../CPUfpga.srcs/sources_1/imports/TINYCPU/core/pipeline/PipelineController.v" \
+"../../../../CPUfpga.srcs/sources_1/imports/TINYCPU/core/pipeline/PipelineDeliver.v" \
+"../../../../CPUfpga.srcs/sources_1/imports/TINYCPU/sim/RAM.v" \
+"../../../../CPUfpga.srcs/sources_1/imports/TINYCPU/sim/ROM.v" \
+"../../../../CPUfpga.srcs/sources_1/imports/TINYCPU/core/storage/RegFile.v" \
+"../../../../CPUfpga.srcs/sources_1/imports/TINYCPU/core/stage/id/RegGen.v" \
+"../../../../CPUfpga.srcs/sources_1/imports/TINYCPU/core/storage/RegReadProxy.v" \
+"../../../../CPUfpga.srcs/sources_1/imports/TINYCPU/core/stage/wb/WB.v" \
+"../../../../CPUfpga.srcs/sources_1/imports/TINYCPU/core/stage/ex/Divider/cas.v" \
+"../../../../CPUfpga.srcs/sources_1/imports/TINYCPU/core/stage/ex/Divider/cas_row.v" \
+"../../../../CPUfpga.srcs/sources_1/imports/TINYCPU/core/stage/ex/Multiplier/full_adder.v" \
+"../../../../CPUfpga.srcs/sources_1/imports/TINYCPU/core/stage/ex/Multiplier/rca.v" \
+"../../../../CPUfpga.srcs/sim_1/new/testbench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

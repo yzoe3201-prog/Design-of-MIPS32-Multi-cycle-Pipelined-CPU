@@ -1,0 +1,51 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 9c825680f0e8435bb22812ec989472e6 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ROM
+Compiling module xil_defaultlib.RAM
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.PipelineDeliver(WIDTH=32)
+Compiling module xil_defaultlib.IFID
+Compiling module xil_defaultlib.RegGen
+Compiling module xil_defaultlib.FunctGen
+Compiling module xil_defaultlib.OperandGen
+Compiling module xil_defaultlib.BranchGen
+Compiling module xil_defaultlib.MemGen
+Compiling module xil_defaultlib.ID
+Compiling module xil_defaultlib.PipelineDeliver
+Compiling module xil_defaultlib.PipelineDeliver(WIDTH=6)
+Compiling module xil_defaultlib.PipelineDeliver(WIDTH=5)
+Compiling module xil_defaultlib.PipelineDeliver(WIDTH=4)
+Compiling module xil_defaultlib.IDEX
+Compiling module xil_defaultlib.Mux
+Compiling module xil_defaultlib.Adder
+Compiling module xil_defaultlib.Done_gate
+Compiling module xil_defaultlib.full_adder
+Compiling module xil_defaultlib.rca_default
+Compiling module xil_defaultlib.Multiplier_default
+Compiling module xil_defaultlib.cas
+Compiling module xil_defaultlib.cas_row_default
+Compiling module xil_defaultlib.Divider_default
+Compiling module xil_defaultlib.Logic
+Compiling module xil_defaultlib.Hilo_Gen
+Compiling module xil_defaultlib.EX
+Compiling module xil_defaultlib.EXMEM
+Compiling module xil_defaultlib.MEM
+Compiling module xil_defaultlib.MEMWB
+Compiling module xil_defaultlib.WB
+Compiling module xil_defaultlib.RegFile
+Compiling module xil_defaultlib.RegReadProxy
+Compiling module xil_defaultlib.HILO
+Compiling module xil_defaultlib.HILOReadProxy
+Compiling module xil_defaultlib.PipelineController
+Compiling module xil_defaultlib.Core
+Compiling module xil_defaultlib.Mycpu_top
+Compiling module xil_defaultlib.testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_behav

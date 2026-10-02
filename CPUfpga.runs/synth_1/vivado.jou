@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Jan  6 16:54:16 2026
+# Process ID: 26912
+# Current directory: D:/homework/AI_computer/Hardware_System_Design/myCPU/CPUfpga.runs/synth_1
+# Command line: vivado.exe -log Mycpu_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Mycpu_top.tcl
+# Log file: D:/homework/AI_computer/Hardware_System_Design/myCPU/CPUfpga.runs/synth_1/Mycpu_top.vds
+# Journal file: D:/homework/AI_computer/Hardware_System_Design/myCPU/CPUfpga.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Mycpu_top.tcl -notrace

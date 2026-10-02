@@ -1,0 +1,124 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Tue Jan  6 17:05:07 2026
+| Host         : Money running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Mycpu_top_control_sets_placed.rpt
+| Design       : Mycpu_top
+| Device       : xc7a35t
+--------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    46 |
+|    Minimum number of control sets                        |    46 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    15 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    46 |
+| >= 0 to < 4        |     1 |
+| >= 4 to < 6        |     0 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     7 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     1 |
+| >= 16              |    37 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              64 |           36 |
+| No           | No                    | Yes                    |              64 |           20 |
+| No           | Yes                   | No                     |             128 |           55 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |              39 |           17 |
+| Yes          | Yes                   | No                     |            1546 |          750 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++---------------------+--------------------------------------------+--------------------------+------------------+----------------+
+|     Clock Signal    |                Enable Signal               |     Set/Reset Signal     | Slice Load Count | Bel Load Count |
++---------------------+--------------------------------------------+--------------------------+------------------+----------------+
+|  clk_IBUF_BUFG      | stall_btn/btn_out_unit/sw_out_n            | core/regfile/SR[0]       |                1 |              1 |
+|  clk_IBUF_BUFG      | core/exmem/ff_result/p_1_in                |                          |                2 |              8 |
+|  clk_IBUF_BUFG      | digic_led/counter/E[0]                     | core/regfile/SR[0]       |                5 |              8 |
+|  clk_IBUF_BUFG      | core/exmem/ff_result/p_1_in__1             |                          |                2 |              8 |
+|  clk_IBUF_BUFG      | core/exmem/ff_result/p_1_in__2             |                          |                2 |              8 |
+|  clk_IBUF_BUFG      | core/exmem/ff_result/p_1_in__0             |                          |                2 |              8 |
+|  clk_IBUF_BUFG      | digic_led/counter/digic_sig_reg_0[0]       | core/regfile/SR[0]       |                4 |              8 |
+|  clk_IBUF_BUFG      | digic_led/counter/digic_sig_reg_1[0]       | core/regfile/SR[0]       |                2 |              8 |
+|  clk_IBUF_BUFG      | digic_led/counter/cnt_second[13]_i_1_n_1   | core/regfile/SR[0]       |                5 |             14 |
+|  clk_IBUF_BUFG      | core/memwb/ff_reg_write_addr/out_reg[0]_36 | core/regfile/SR[0]       |               15 |             32 |
+|  clk_IBUF_BUFG      | core/memwb/ff_reg_write_addr/out_reg[0]_41 | core/regfile/SR[0]       |               21 |             32 |
+|  clk_IBUF_BUFG      | core/memwb/ff_reg_write_addr/out_reg[0]_35 | core/regfile/SR[0]       |               20 |             32 |
+|  clk_IBUF_BUFG      | core/memwb/ff_reg_write_addr/out_reg[3]_0  | core/regfile/SR[0]       |               18 |             32 |
+|  clk_IBUF_BUFG      | core/memwb/ff_reg_write_addr/out_reg[2]_2  | core/regfile/SR[0]       |               12 |             32 |
+|  clk_IBUF_BUFG      | core/memwb/ff_reg_write_addr/out_reg[3]_12 | core/regfile/SR[0]       |               15 |             32 |
+|  clk_IBUF_BUFG      | core/memwb/ff_reg_write_addr/out_reg[2]_1  | core/regfile/SR[0]       |               18 |             32 |
+|  clk_IBUF_BUFG      | core/memwb/ff_reg_write_addr/out_reg[3]_2  | core/regfile/SR[0]       |               17 |             32 |
+|  clk_IBUF_BUFG      | core/memwb/ff_reg_write_addr/out_reg[3]_5  | core/regfile/SR[0]       |               13 |             32 |
+|  clk_IBUF_BUFG      | core/memwb/ff_reg_write_addr/out_reg[3]_7  | core/regfile/SR[0]       |               11 |             32 |
+|  clk_IBUF_BUFG      | core/memwb/ff_reg_write_addr/out_reg[3]_9  | core/regfile/SR[0]       |               11 |             32 |
+|  clk_IBUF_BUFG      | core/memwb/ff_reg_write_addr/out_reg[0]_33 | core/regfile/SR[0]       |               25 |             32 |
+|  clk_IBUF_BUFG      | core/memwb/ff_reg_write_addr/out_reg[3]_13 | core/regfile/SR[0]       |               14 |             32 |
+|  clk_IBUF_BUFG      | core/memwb/ff_reg_write_addr/out_reg[3]_6  | core/regfile/SR[0]       |               21 |             32 |
+|  clk_IBUF_BUFG      | core/memwb/ff_reg_write_addr/out_reg[4]_1  | core/regfile/SR[0]       |               21 |             32 |
+|  clk_IBUF_BUFG      | core/memwb/ff_reg_write_addr/out_reg[0]_38 | core/regfile/SR[0]       |               18 |             32 |
+|  clk_IBUF_BUFG      | core/memwb/ff_reg_write_addr/out_reg[4]_0  | core/regfile/SR[0]       |               18 |             32 |
+|  clk_IBUF_BUFG      | core/memwb/ff_reg_write_addr/out_reg[3]_4  | core/regfile/SR[0]       |               21 |             32 |
+|  clk_IBUF_BUFG      | core/memwb/ff_reg_write_addr/out_reg[2]_0  | core/regfile/SR[0]       |               11 |             32 |
+|  clk_IBUF_BUFG      | core/memwb/ff_reg_write_addr/out_reg[3]_11 | core/regfile/SR[0]       |               17 |             32 |
+|  clk_IBUF_BUFG      | core/memwb/ff_reg_write_addr/out_reg[4]_2  | core/regfile/SR[0]       |               17 |             32 |
+|  clk_IBUF_BUFG      | core/memwb/ff_reg_write_addr/out_reg[0]_37 | core/regfile/SR[0]       |               17 |             32 |
+|  clk_IBUF_BUFG      | core/memwb/ff_reg_write_addr/out_reg[0]_40 | core/regfile/SR[0]       |               15 |             32 |
+|  clk_IBUF_BUFG      | core/memwb/ff_reg_write_addr/out_reg[3]_1  | core/regfile/SR[0]       |               23 |             32 |
+|  clk_IBUF_BUFG      | core/memwb/ff_reg_write_addr/out_reg[3]_3  | core/regfile/SR[0]       |               20 |             32 |
+|  clk_IBUF_BUFG      | core/memwb/ff_reg_write_addr/out_reg[3]_10 | core/regfile/SR[0]       |               14 |             32 |
+|  clk_IBUF_BUFG      | core/memwb/ff_reg_write_addr/out_reg[0]_32 | core/regfile/SR[0]       |               19 |             32 |
+|  clk_IBUF_BUFG      | core/memwb/ff_reg_write_addr/out_reg[3]_8  | core/regfile/SR[0]       |               12 |             32 |
+|  clk_IBUF_BUFG      | core/memwb/ff_reg_write_addr/out_reg[0]_34 | core/regfile/SR[0]       |               20 |             32 |
+|  clk_IBUF_BUFG      | core/memwb/ff_reg_write_addr/out_reg[0]_39 | core/regfile/SR[0]       |               13 |             32 |
+|  ex_stage/select[0] |                                            | core/idex/ff_funct/AR[0] |                8 |             32 |
+|  n_0_3922_BUFG      |                                            |                          |               36 |             64 |
+|  clk_IBUF_BUFG      | core/memwb/ff_hilo_write_en/out_reg[0]_0   | core/regfile/SR[0]       |               34 |             64 |
+|  clk_IBUF_BUFG      | core/ifid/ff_inst/E[0]                     | core/regfile/SR[0]       |               37 |             96 |
+|  clk_IBUF_BUFG      | core/ifid/ff_inst/E[0]                     | stall_btn/stall_reg_0    |               63 |            142 |
+|  clk_IBUF_BUFG      |                                            | core/regfile/SR[0]       |               67 |            160 |
+|  clk_IBUF_BUFG      | stall_btn/E[0]                             | core/regfile/SR[0]       |              109 |            284 |
++---------------------+--------------------------------------------+--------------------------+------------------+----------------+
+
+
