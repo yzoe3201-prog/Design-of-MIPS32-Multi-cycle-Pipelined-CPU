@@ -14,23 +14,28 @@
 - **FPGA 外设**：数码管动态扫描显示 + 调试多路选择
 
 ## 目录结构
+
+```text
 myCPU/
-├── CPUfpga.xpr          # Vivado 工程文件（打开即用）
-├── src/                 # Verilog 源码
-│   ├── Mycpu_top.v      # 顶层：连接 ROM/RAM/Core 与开发板引脚
-│   ├── Core.v           # 流水线总装（IF/ID/EX/MEM/WB + 流水线寄存器）
-│   ├── PipelineController.v  # 流水线暂停 / 冲刷控制
-│   ├── PipelineDeliver.v     # 气泡插入
-│   ├── RegFile.v        # 寄存器堆
-│   ├── RegReadProxy.v   # 转发 + Load 暂停请求
-│   ├── BranchGen.v      # 分支条件判断
-│   ├── ALU.v            # 算术逻辑单元
-│   ├── MulDiv.v/ HILO.v       # 乘除单元
-│   ├── ROM.v            # 指令存储器（内置测试程序）
-│   ├── RAM.v            # 数据存储器
-│   └── ...              # 其余模块
-├── xdc/                 # 引脚约束文件
-└── sim/                 # 仿真测试平台（testbench）
+├── CPUfpga.xpr            # Vivado 工程文件（打开即用）
+│
+├── src/                   # Verilog 源码
+│   ├── Mycpu_top.v        # 顶层：连接 ROM/RAM/Core 与 FPGA 引脚
+│   ├── Core.v             # 流水线总装（IF/ID/EX/MEM/WB + 流水寄存器）
+│   ├── PipelineController.v   # 流水线暂停 / 冲刷控制
+│   ├── PipelineDeliver.v      # 气泡插入
+│   ├── RegFile.v          # 寄存器堆（32×32，写通模式）
+│   ├── RegReadProxy.v     # 结果转发 + Load 相关暂停
+│   ├── BranchGen.v        # 分支条件判断（ID 级提前判断）
+│   ├── ALU.v              # 算术逻辑单元
+│   ├── MulDiv.v           # 乘除运算（多周期）
+│   ├── HILO.v             # HI/LO 寄存器
+│   ├── ROM.v              # 指令存储器（内置 11 条测试程序）
+│   └── RAM.v              # 数据存储器
+│
+├── xdc/                   # FPGA 引脚约束文件
+└── sim/                   # 仿真测试平台（testbench）
+```
 
 
 ## 如何运行
